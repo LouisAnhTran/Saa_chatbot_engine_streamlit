@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "saa-chatbot-frontend-demo-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Louis Anh Tran <louistrannamanh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.55.0"
+streamlit = "^1.40.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
